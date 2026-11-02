@@ -5,13 +5,15 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "commander": "^15.0.0",
     "sec-edgar-toolkit": "^0.2.0",
-    "turndown": "^7.2.4"
+    "turndown": "^7.2.4",
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
